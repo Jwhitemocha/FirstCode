@@ -1,5 +1,52 @@
+h2 { 
+    color: salmon; 
+    font-size: 24px; 
+    margin: 10px;
+}
+
 .portfolioname { 
-    color: royalblue;
-    font-size: 30px; 
+    color: salmon;
+    font-size: 24px; 
+    background-color: skyblue;
+    position: relative;
+   
+}
+.profilepic { 
+    height: 200px;
+    width: 200px; 
+    left: auto; 
+}
+.contact { 
+    float: right; 
+    border: 25px; 
+}
+.portfolio { 
+    float: right; 
+    border: 25px; 
+    margin-right: 10px;
+    
+}
+.text { 
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px; 
+    color: #777777;
+}
+
+
+
+
+.footer { 
     background-color: slategray;
+    text-align: center;
+    font-size: 24px; 
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 50px;
+    width: 100%;
+}
+body { 
+    background-color: bisque;
+    height: 960px;
+    width: 960px; 
 }
