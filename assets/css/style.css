@@ -2,37 +2,60 @@ h2 {
     color: salmon; 
     font-size: 24px; 
     margin: 10px;
+    border-bottom: slategray;
 }
 
 .portfolioname { 
     color: salmon;
     font-size: 24px; 
-    background-color: skyblue;
+    background-color: slategray;
     position: relative;
+    float: top;
+    margin: 0px;
    
 }
 .profilepic { 
     height: 200px;
     width: 200px; 
     left: auto; 
+    opacity: .75;
 }
-.contact { 
+.navbar { 
+    overflow: hidden; 
+    background-color: slategray;
+}
+.navbar a { 
     float: right; 
-    border: 25px; 
+    display: block;
+    color: salmon;
+    text-align: center; 
+    padding: 14px 20px; 
+    text-decoration: none;
 }
-.portfolio { 
-    float: right; 
-    border: 25px; 
-    margin-right: 10px;
-    
+
+.navbar a:hover {
+    background-color: aliceblue;
+    color: black;
 }
+
 .text { 
     font-family: 'Times New Roman', Times, serif;
     font-size: 18px; 
     color: #777777;
+    float: right;
+    background-color: aliceblue;
+
 }
-
-
+.side { 
+    flex: 30%;
+    background-color: aliceblue;
+    padding: 20px;
+}
+.main { 
+    flex: 70%;
+    background-color: aliceblue;
+    padding: 20px;
+}
 
 
 .footer { 
@@ -46,7 +69,8 @@ h2 {
     width: 100%;
 }
 body { 
-    background-color: bisque;
     height: 960px;
     width: 960px; 
+    background-image: url(C:\Users\jtvmo\Documents\repo\week1-hw\assets\images\background.png)
 }
+
